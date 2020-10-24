@@ -1,0 +1,31 @@
+@import url("./font.css");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #09caf1;
+}
+.logo {
+  font-family: "Billabong", fantasy, cursive;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.p-xl {
+  padding: 0px 1rem;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: rgb(243, 243, 243);
+  border-radius: 50px;
+  border: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
